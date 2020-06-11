@@ -379,7 +379,6 @@ window.addEventListener("resize", function () {
     cam.updateProjectionMatrix();
 });
 
-let control = new THREE.OrbitControls(cam, renderer.domElement);
 
 let angle = 0;
 
